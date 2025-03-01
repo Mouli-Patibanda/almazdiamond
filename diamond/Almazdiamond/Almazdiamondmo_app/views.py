@@ -8,7 +8,7 @@ def test_view(request):
     return render(request,'Homemain.html')
 
 def test_2(request):
-    return HttpResponse('working')
+    return HttpResponse('working ')
 def login(request):
 
     return render(request,'login.html')
